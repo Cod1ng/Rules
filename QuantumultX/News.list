@@ -1,0 +1,17 @@
+# > Apple News
+DOMAIN,gateway.icloud.com
+
+PROCESS-NAME,News
+USER-AGENT,AppleNews*
+# USER-AGENT,News* // 「今日头条」亦使用此，故不启用
+USER-AGENT,com.apple.news*
+DOMAIN-SUFFIX,apple.news
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,newsletter-edge.apple.com
+DOMAIN,apple.comscoreresearch.com
+
+# News+ Audio
+URL-REGEX,^https?:\/\/news-assets\.apple\.com\/.*(audio-narrative).*
