@@ -1,4 +1,4 @@
-#!name=Ali DOH Service
+#!name=Ali Public DOH Service
 #!desc=设置DNS为Ali DOH服务
 
 [General]
